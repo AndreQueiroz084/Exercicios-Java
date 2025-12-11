@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class conversorMoeda {
     public static void main(String[] args) {
-        // 🚨 CORREÇÃO: Força o Scanner a usar o padrão do Brasil (vírgula como decimal)
+        // CORREÇÃO: Força o Scanner a usar o padrão do Brasil (vírgula como decimal)
         Scanner dados = new Scanner(System.in).useLocale(new Locale("pt", "BR"));;
 
         // Scanner dados = new Scanner(System.in).useLocale(Locale.US);

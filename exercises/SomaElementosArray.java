@@ -16,3 +16,4 @@ public class SomaElementosArray {
         System.out.println(String.format("A soma de todos os elementos é: %d",soma));
     }
 }
+    
